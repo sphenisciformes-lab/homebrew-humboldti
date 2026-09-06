@@ -1,25 +1,25 @@
 class HumboldtiNote < Formula
   desc "A minimal daily markdown note-taking tool for your terminal."
   homepage "https://github.com/sphenisciformes-lab/humboldti"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.1/humboldti-note-aarch64-apple-darwin.tar.xz"
-      sha256 "2bca223f3c97895d900d35e58e0fed15478e192c465261403fde106ac7edb673"
+      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.2/humboldti-note-aarch64-apple-darwin.tar.xz"
+      sha256 "5eb8ca431ea89c12d25c1cd99e21d6c03601a2b7cb12740a66edf0d3f63e360c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.1/humboldti-note-x86_64-apple-darwin.tar.xz"
-      sha256 "dfc07f89545fd4212e7faba7121ffb72560f6fa04a53e373d1053f0acf668fb7"
+      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.2/humboldti-note-x86_64-apple-darwin.tar.xz"
+      sha256 "5a706118823caf026d303a81a7dfb397decfb53f87c8f6db31e387f5e7fa7c3c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.1/humboldti-note-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "02b3ce7d66dc2467e50d0f20b08b1a6645bded765a2c4ddfa4a642e8e592c27c"
+      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.2/humboldti-note-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6797d9912fa10563a8e3e1b63913d83095300a273788b86f56a853c76927d95e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.1/humboldti-note-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "39118409f3449bfab862c3cc3f835f0649bcdf484aaa263ef299713644486021"
+      url "https://github.com/sphenisciformes-lab/humboldti/releases/download/v0.1.2/humboldti-note-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1de4f8100cc1981df40bba90aaf3c99fbd8810ecfdcefc3604333cf2a7e3420d"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
